@@ -18,7 +18,6 @@ class HorseTest {
         try{
             Horse horse = new Horse(null, 20.0);
         }catch (IllegalArgumentException e){
-            e.getMessage();
             assertEquals("Name cannot be null.",e.getMessage());
         }
     //    assertThrows(IllegalArgumentException.class, () -> new Horse(null, 20.2), "Name cannot be null.");
@@ -66,12 +65,6 @@ class HorseTest {
 //    void test(String name, int age, boolean male){
 //
 //    }
-
-
-    // В классе иподром проверить что в констр null будет выброшен exception
-    // проверить сообщение этого exception
-    // проверить что в случае если список пустой, будет ошибка
-    // проверить сообщение на эту ошибку
 
 
 }
