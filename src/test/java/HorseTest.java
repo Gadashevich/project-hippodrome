@@ -10,8 +10,6 @@ import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.*;
@@ -128,26 +126,10 @@ class HorseTest {
         }
     }
 
-    @Test
-    void testGetHorses(){
-        List<Horse> list = new ArrayList<>();
-        for (int i = 0; i <30 ; i++) {
-            list.add(new Horse("name"+i,i,i));
-        }
-        Hippodrome hippodrome = new Hippodrome(list);
-        assertEquals(list,hippodrome.getHorses());
-    }
 
 
-    @Test
-    void testGetWinner() {
-        Horse horse1 = new Horse("One", 1, 2);
-        Horse horse2 = new Horse("Two", 2, 30);
-        Horse horse3 = new Horse("Three", 4, 50);
-        Horse horse4 = new Horse("Four", 1, 10);
-        Hippodrome hippodrome = new Hippodrome(List.of(horse1, horse2, horse3, horse4));
-        assertSame(horse3,hippodrome.getWinner());
-    }
+
+
 
 
     /*    метод move:

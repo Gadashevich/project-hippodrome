@@ -1,0 +1,4 @@
+2023-12-14 23:13:11,427 ERROR Horse: Name is blank
+2023-12-14 23:13:44,912 DEBUG Horse: Horse: Создание Horse, имя [null], скорость [2.4]
+2023-12-14 23:13:44,914 DEBUG Horse: Horse: Создание Horse, имя [Ace of Spades], скорость [2.5]
+2023-12-14 23:13:44,915 ERROR Horse: Name is blank
