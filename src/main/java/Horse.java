@@ -9,6 +9,7 @@ public class Horse {
     private final double speed;
     private double distance;
 
+
     public Horse(String name, double speed, double distance) {
         if (isNull(name)) {
             log.error("Name is null");

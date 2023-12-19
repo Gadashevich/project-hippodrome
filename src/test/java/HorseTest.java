@@ -125,27 +125,4 @@ class HorseTest {
             assertEquals(expDistance, actualDistance);
         }
     }
-
-
-
-
-
-
-
-    /*    метод move:
-
-    Проверить, что метод вызывает внутри метод getRandomDouble() с параметрами 0.2 и 0.9. Для этого нужно использовать MockedStatic и его метод verify();
-    Проверить, что метод присваивает дистанции значение высчитанное по формуле: distance + speed * getRandomDouble(0.2, 0.9). Для этого нужно замокать getRandomDouble(), чтобы он возвращал определенные значения, которые нужно задать параметризовав тест.
-*/
-
-//    @ParameterizedTest
-//    @CsvSource({
-//            "Alex, 20, true",
-//            "Boris, 25, false"
-//    })
-//    void test(String name, int age, boolean male){
-//
-//    }
-
-
 }
